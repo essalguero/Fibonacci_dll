@@ -31,7 +31,7 @@ extern "C" double fibonacci_recursivo(int n) {
 		return fibonacci_recursivo(n - 2) + fibonacci_recursivo(n - 1);
 }
 
-extern "C" int fibonacci_DivideAndConquer(int n) {
+extern "C" double fibonacci_DivideAndConquer(int n) {
 	if (n <= 0)
 		return 1;
 
